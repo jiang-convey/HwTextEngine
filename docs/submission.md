@@ -7,7 +7,7 @@
 |---|---|
 | 项目英文名 | **HwTextEngine**（作业文本处理引擎） |
 | 选题方向 | 算法应用工具（文本处理） |
-| 代码仓库 | `https://github.com/jiang-convey/---` |
+| 代码仓库 | `https://github.com/jiang-convey/HwTextEngine` |
 | 运行环境 | Python ≥ 3.8；**算法与测试零第三方依赖**，仅 PDF 输入需可选 `pymupdf` / `pdfplumber` |
 | 单元测试 | 47 个用例全部通过（标准库 `unittest`，无需第三方库） |
 | 许可证 | MIT |
