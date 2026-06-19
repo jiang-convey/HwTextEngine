@@ -1,0 +1,10 @@
+# HwTextEngine 依赖说明
+#
+# 算法内核与单元测试【零第三方依赖】——只用 Python 标准库即可运行：
+#     python -m unittest discover -s tests -p "test_*.py"
+#
+# 下面两个库【仅用于 I/O 边界】(src/hwtext/io/pdf_text.py)，把 PDF 解码成文本；
+# 只有当 `locate` 的输入是 .pdf 时才需要安装。任选其一即可（pymupdf 优先）。
+
+pymupdf>=1.23
+pdfplumber>=0.10

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hwtext-engine"
+version = "1.0.0"
+description = "作业文本处理引擎：自实现 KMP / Aho-Corasick / 编辑距离 / 栈 / 递归下降 / Huffman"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "蒋名仪 (Jiang Mingyi)" }]
+keywords = ["data-structures", "algorithms", "kmp", "aho-corasick", "huffman"]
+dependencies = []                      # 算法内核零依赖
+
+[project.optional-dependencies]
+pdf = ["pymupdf>=1.23", "pdfplumber>=0.10"]   # 仅 I/O 边界（PDF 解码）
+
+[project.scripts]
+hwtext = "hwtext.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
