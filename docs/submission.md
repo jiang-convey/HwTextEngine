@@ -1,5 +1,5 @@
 <p class="subtitle">数算 B 课程大作业 ｜ 选题方向：算法应用工具（文本处理）</p>
-<p class="author">作者：蒋名仪（Jiang Mingyi）　学号：____________　北京大学　2026 年 6 月</p>
+<p class="author">作者：蒋名仪（Jiang Mingyi）　学号：2500010771　北京大学　2026 年 6 月</p>
 
 ## 提交信息
 
